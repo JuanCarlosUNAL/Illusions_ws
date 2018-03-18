@@ -1,0 +1,117 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="SpinningDancer.js"></script>
+  <script language="javascript" type="text/javascript" src="circles.js"></script>
+  <script language="javascript" type="text/javascript" src="colores.js"></script>
+  <script language="javascript" type="text/javascript" src="lilacChaser.js"></script>
+  <script language="javascript" type="text/javascript" src="stereokineticEfect.js"></script>
+  <script language="javascript" type="text/javascript" src="undokai.js"></script>
+  <script language="javascript" type="text/javascript" src="opticalIllusions.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <!-- This line removes any default padding and style. 
+       You might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+
+      <div id="lienzo" class="col-md-7 col-sm-12"></div>
+      <div id="circles" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Círculos</h1>
+        <h2>¿Qué hace?</h2>
+        <p>¿Cuántos círculos puedes ver en la imágen?, presta mucha 
+          atención que lo que en realidad forma los aparentes cuadrados, en realidad son círculos!.</p>
+        <h2>¿Comó se hizo?</h2>
+        <p>Primero, se pinto una serie de lineas con grosor aleatorio en el fondo del lienzo, 
+          despues de ello, pintamos lineas desde de acuerdo a la formula del círculo.
+        </p>
+      </div>
+      <div id="spinningDancer" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Spinning Dancer</h1>
+        <h2>¿Qué hace?</h2>
+        <p>¿En qué dirección en realidad se mueve la bailarina? 
+          Hacia la derecha o a la izquierda
+        </p>
+        <h2>¿Como se hizo?</h2>
+        <p>
+          La animación, es una serie de frames intercambiados rapidamente de manera que aparenten movimiento.
+          Además, estan marcadas de manera que el usuario pueda notar el efecto de cambio de dirección en la bailarina.
+        </p>
+        <h2>Interacción</h2>
+        <p>
+          Puede interactuar con la animación haciendo click en la imágen.
+        </p>
+      </div>
+      <div id="colores" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Colores</h1>
+        <h2>¿Qué hace?</h2>
+        <p>
+          Mira fijamente en el centro de la imágen y espera al rededor de 10 segundos.
+          Al parecer la imagen se ha coloreado. ¿?.
+        </p>
+        <h2>¿Como se hizo?</h2>
+        <p>
+          Primero, una imágen es seleccionada y mostrada con los colores invertidos depues que el usuario ha mirado fijamente 
+          la imágen se intercambia rapidamente a la imagen en blanco y negro. Debido a la sensación de iluminacion u opacidad las 
+          proporciones de luz que inciden en el ojo no son correctamente transmitidas al ojo por lo que da la senzacion de ver el color complementario
+        </p>
+        <cite title="https://wikipedia.org"><a href="https://es.wikipedia.org/wiki/Colores_complementarios">Retroimagenes</a></cite>
+        <h2>interacción</h2>
+        <p>Oprima una tecla para reiniciar el conteo.</p>
+      </div>
+      <div id="lilacChaser" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Lilac Chaser</h1>
+        <h2>¿Qué hace?</h2>
+        <p>Mira al centor de la imágen por un tiempo.</p> 
+        <p>los círculos rosas desaparecen y en el lugar donde no hay círculo,
+          aparece un círculo del color complementario de rosa, el verde.
+        </p>
+        <h2>¿Comó se hizo?</h2>
+        <p>
+          Pintamos n círculos divididos en ángulos iguales y disminuimos el canar alpha (R,G,B, &#945) para crear el gradiente.
+          En cuanto al giro del punto sin círculo pintamos un circulo del mismo color de fondo y volvemos a dibujar el circulo que fue anteriormente borrado
+        </p>
+        
+      </div>
+      <div id="stereokinetic" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Stereokinetic efect</h1>
+        <h2>¿Qué hace?</h2>
+        <p>Observa el centro del la imágen, aun puedes parpadear. ¿Qué figura geometrica aparenta ser?</p>
+        <h2>¿Comó se hizo?</h2>
+        <p>Luego de ubicar una buena cantidad de círculos en su lugar giramos cada uno de estos e intercambiamos sus colores.</p>
+      </div>
+      <div id="undokai" class="p5-description d-none col-md-5 col-sm-12">
+        <h1>Motion bounce</h1>
+        <h2>¿Qué hace?</h2>
+        <p>¿Puédes ver como rebotan las esferas?</p>
+        <h2>¿Comó se hizo?</h2>
+        <p>Esta es una animacion bastante sencilla, simplemente tienes que 
+          hacer que una esfera cruze de una esquina a la otra
+        </p>
+        <cite title="www.michaelbach.de"><a href="http://www.michaelbach.de/ot/mot-bounce/index.html">Motion-bounce illusion </a></cite>
+
+        <h2>Interacción</h2>
+        <p>Da click sobre la imágen para ver que es lo que realmente sucede</p>
+      </div>
+      <div id="explicaion" class="p5-description col-md-5 col-sm-12">
+        <h1>Introducción</h1>
+        <p>
+          Para interactuar con la página use las flechas arriba y abajo para visualizar las diferentes iluciones.
+          es necesario tambien contar con la libreria de sonido de processing.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
