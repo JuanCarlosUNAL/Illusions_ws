@@ -15,22 +15,20 @@ Complete la tabla:
 
 | Integrante | github nick |
 |------------|-------------|
-|            |             |
+|Juan Carlos Gama Roa |juancarlosunal|
 
 ## Discusión
 
 1. Complete la la tabla
 
 | Ilusión | Categoria | Referencia | Tipo de interactividad (si aplica) | URL código base (si aplica) |
-|---------|-----------|------------|------------------------------------|-----------------------------|
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-|         |           |            |                                    |                             |
-
-2. Describa brevememente las referencias estudiadas y los posibles temas en los que le gustaría profundizar:
+|---------|-------------|------------|------------------------------------|-----------------------------|
+| circulos|Physiological|[best-optical-illusion](http://www.flexyourbrain.com/best-optical-illusions/) |  |  |
+|colores|retroimagen|[best-optical-illusion](http://www.flexyourbrain.com/best-optical-illusions/)| tecla para reiniciar | |
+|liliacChaser|others|[wikipedia](https://en.wikipedia.org/wiki/Lilac_chaser)|  |  |
+| SpinningDancer |others|[wikipedia](https://en.wikipedia.org/wiki/Spinning_Dancer) y [best-optical-illusion](http://www.flexyourbrain.com/best-optical-illusions/)| Cambio de dirección con clcik |                             |
+|stereokinetic Efect|ficción|[Visual Phenomena & Optical Illusions](http://www.michaelbach.de/ot/mot-ske/index.html)| | |
+|Motion-Bounce| ficción |[Visual Phenomena & Optical Illusions](http://www.michaelbach.de/ot/mot-ske/index.html)| sonido |  |
 
 ## Entrega
 
